@@ -1,0 +1,19 @@
+{
+  "name": "sms-cafe24",
+  "version": "1.0.0",
+  "description": "sms sender module for cafe24.com sms service",
+  "main": "smssender.js",
+  "dependencies": {
+    "connect": "^2.7.3",
+    "crypto": "^0.0.3",
+    "googleapis": "^0.2.9-alpha",
+    "net": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jason Lee",
+  "license": "MIT"
+}
